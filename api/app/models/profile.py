@@ -16,4 +16,5 @@ class Profile(Base):
     about_me = Column(String)
     telephone_number = Column(String)
 
+
     projects = relationship("Project", back_populates="owner")

@@ -13,6 +13,7 @@ class ProfileBase(BaseModel):
     birthdate: str
     about_me: str
     telephone_number: str
+    
 
 
 class ProfileCreate(ProfileBase):
