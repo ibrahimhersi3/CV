@@ -21,6 +21,7 @@ export default function ProfilePage(props) {
 
       // Update state
       setprofile(data)
+      
     }
 
     // Invoke the async function
