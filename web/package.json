@@ -29,12 +29,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
-  "homepage": "https://ibrahimhersi3.github.io/cv",
+  "homepage": "https://ibrahimhersi3.github.io/cv/",
   "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
-    
+
 
     "production": [
 
