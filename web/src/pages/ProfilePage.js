@@ -229,10 +229,9 @@ export default function ProfilePage(props) {
 					<p class="subDetails">Master's Degree in Computer Science  2017-2019</p>
 					<p class="subDetails">Coursework: Functional Programming, Machine learning, Parallel programming, Advanced Software Design, Secure Computer Systems, Software Engineering and Project Management, Requirements in Agile Development, Intelligent Interactive Systems, Complex IT Systems in Large Organizations.</p>
 
-    
-          <h3>Infrastructure University of Kuala Lumpur </h3>
-          <p class="subDetails">Bachelor's Degree in Software Engineering 2013-2016</p>
-          <p class="subDetails">Coursework: Programming, Object oriented programming, Data structures and algorithms, Operating systems, Computer architecture, Computer Networks, Artificial intelligence.</p>
+          {/* <h3>Infrastructure University of Kuala Lumpur </h3> */}
+          {/* <p class="subDetails">Bachelor's Degree in Software Engineering 2013-2016</p> */}
+          {/* <p class="subDetails">Coursework: Programming, Object oriented programming, Data structures and algorithms, Operating systems, Computer architecture, Computer Networks, Artificial intelligence.</p> */}
     
        </div>
 
