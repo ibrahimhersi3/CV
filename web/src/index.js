@@ -6,7 +6,7 @@ import App from './App'
 render(
   <BrowserRouter basename={window.location.pathname || ''}>
     <Route exact path="/" component={Index} />
-    <App />
+    
   </BrowserRouter>,
   document.querySelector('#root')
 )
