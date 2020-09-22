@@ -4,7 +4,8 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 
 render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
+    <Route exact path="/" component={Index} />
     <App />
   </BrowserRouter>,
   document.querySelector('#root')
